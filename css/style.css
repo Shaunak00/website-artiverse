@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: Arial, sans-serif;
+}
+
+.img {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the span */
+.blink {
+  animation: blink 1.5s infinite;
+  color: magenta;
+}
+.center .title {
+  color: purple;
+  margin-top: 125px;
+  font-size: 200px; /* Adjusted font size for smaller screens */
+  font-family: "Lobster", cursive;
+  font-weight: normal; /* Adjusted font weight */
+}
+.center .year {
+  color: purple;
+  margin-top: 10px;
+  font-size: 100px; /* Adjusted font size for smaller screens */
+  font-family: "Lobster", cursive;
+  font-weight: normal; /* Adjusted font weight */
+}
+
+.center .sub_title {
+  color: #b80303;
+  margin-top: 40px;
+  font-size: 75px; /* Adjusted font size for smaller screens */
+  margin-bottom: 50px; /* Reduced margin for smaller screens */
+  font-weight: 600;
+}
+
+/* Media Queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+  .center .title {
+    font-size: 25px;
+    margin-top: 50px; /* Adjusted margin for title */
+  }
+  .center .year {
+    font-size: 25px;
+    margin-top: 5px; /* Adjusted margin for title */
+  }
+
+  .center .sub_title {
+    font-size: 22px; /* Adjusted font size for smaller screens */
+    margin-bottom: 20px; /* Reduced margin for smaller screens */
+    margin-top: 20px;
+  }
+
+  .img {
+    height: 50vh; /* Adjusted image height for smaller screens */
+  }
+}
+
+#Video {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
