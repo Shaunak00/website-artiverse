@@ -7,16 +7,6 @@
   flex-shrink: 0;
 }
 
-main {
-  height: auto;
-  background-color: #000;
-  background-size: contain;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  position: relative;
-}
 .animated-button {
   margin-top: 30px;
   margin-bottom: 30px;

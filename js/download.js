@@ -1,6 +1,6 @@
 function downloadFiles() {
     // Define file URLs
-    var fileUrls = ['./pdf/Problem Statement - Artiverse.pdf', './pdf/Abstract Template - Artiverse.docx'];
+    var fileUrls = ['./pdf/Problem Statement - Artiverse.pdf'];
     
     // Create anchor element for download
     var anchor = document.createElement('a');

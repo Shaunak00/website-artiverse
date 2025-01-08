@@ -1,6 +1,4 @@
-*{
-  text-decoration: none;
-}
+
 .heading {
   width: 90%;
   display: flex;
@@ -8,14 +6,13 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin: 20px auto;
+  margin: auto;
 }
 
 .heading h1 {
   font-family: "Roboto", sans-serif;
   font-size: 50px;
   color: #fff;
-  margin-bottom: 25px;
   position: relative;
 }
 
@@ -34,7 +31,7 @@
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #fff;
-  margin-bottom: 35px;
+  margin-bottom: 5px;
 }
 
 .container {
@@ -72,7 +69,7 @@
 }
 
 .about-content h2 {
-  font-size: 23px;
+  font-size: 24px;
   margin-bottom: 15px;
   color: #fff;
 }
@@ -84,7 +81,7 @@
 }
 
 .button1 {
-  margin-top: 50px;
+  margin-top: 20px;
   --main-focus: #2d8cf0;
   --font-color: #dedede;
   --bg-color-sub: #222;
